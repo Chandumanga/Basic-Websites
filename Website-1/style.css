@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(tree.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    /* border: 1px solid red; */
+}
+
+.navbar {
+    width: 800px;
+    height: 75px;
+    margin: auto;
+    /* border: 1px solid rgb(135, 206, 54); */
+}
+
+.icon {
+    width: 125px;
+    float: left;
+    height: 70px;
+    /* border: 1px solid rgb(85, 0, 255); */
+}
+
+.logo {
+    color: orange;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 14px;
+}
+.s {
+    font-size: 15px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Lobster', cursive;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    /* border: 1px solid rgb(255, 0, 212); */
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 28px;
+    margin-top: 27px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 230px;
+    float: left;
+    margin-left: 10px;
+    /* border: 1px solid white; */
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 155px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding-left: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px ;
+     
+
+}
+.btn{
+    width: 58px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top:13px ;
+    color: wheat;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    cursor: pointer;
+
+}
+.btn:focus{
+    outline: none;
+}
+.srch{
+    outline: none;
+}
+.content{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 28px;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    width: 480px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 1px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom:10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+     
+}
+.cn a{
+    text-decoration: none;
+   transition: .3s ease;
+    color: black;
+
+}
+.cn:hover{
+    background-color: white;
+
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 25px;
+    left: 539px;
+    border-radius: 10px;
+    padding: 10px;
+    /* text-align: center; */
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top:20px ;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius:10px ;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center ;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a{
+text-decoration: none;
+color: white;
+ 
+}
+.icon ion-icon{
+    color: white;
+    font-size: 15px;
+    padding-left: 6px;
+    padding-top: 10px;
+    transition: 0.3s ease;
+     
+}
+.icon ion-icon:hover{
+    color: orange;
+}

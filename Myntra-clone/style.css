@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: sticky;
+    top: 0;
+     background-color:white;
+}
+.navbar{
+    height: 80px;
+    /* background-color:whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+/* box1 */
+.nav-logo{
+    height:48px;
+    width: 60px;
+}
+.nav-logo img{
+    height: 45px;
+    width:60px;
+    cursor: pointer;
+}
+/* box2 */
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.items li{
+    list-style: none;
+    padding: 0px 12px ;
+    /* cursor: pointer; */
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.nav-search{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+    
+}
+.search-input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    background-color: rgb(236, 241, 241);
+    border-radius: 5px;
+    
+}
+.serach-icon{
+    width: 38px;
+     
+}
+#search{
+    left: 28px;
+    position: relative;
+    color: gray;
+    top: 2px;
+    cursor: pointer;
+}
+/* box4 */
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .para{
+    margin-top: 5px;
+ }
+
+ /* section */
+ .s1{
+    background-color: #ffffff95;
+    display: flex;
+    justify-content: center;
+ }
+ .homeimg{
+    width: 90vw;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+ .homeimg2{
+    width: 90vw;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ 
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+ }
+ .box2{
+    border: 1px solid black;
+    height: 310px;
+    width: 22%;
+ }
+ .box2 img{
+    height: 310px;
+    width: 100%;
+ }
+
+ .foot{
+    margin-top: 30px;
+    height: 60px;
+    background-color:whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* position: sticky; */
+    /* bottom: 0; */
+    font-weight: 600;
+ }
+  
+
+ 

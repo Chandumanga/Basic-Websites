@@ -1,0 +1,43 @@
+ 
+.flex-all-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.search .btn{
+    position: relative;
+    right: 30px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+.search .btn1{
+    font-size: 21px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+ 
+.btn img{
+    width: 20px;
+}
+.btn2{
+    position: relative;
+    border: none;
+    color: white;
+    background: #2874f0;
+    /* position: absolute; */
+    left: 1;
+    left: 198px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-1{
+    margin: 26px 0;
+}
+.my-2{
+    margin: 30px 10px;
+}
+.text-center{
+    text-align: center;
+}
